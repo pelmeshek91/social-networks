@@ -1,7 +1,9 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Layout from "./Layout/Layout";
 import HomePage from "../pages/HomePage/HomePage";
-import CardsPage from "../pages/CardsPage/CardsPage";
+import { lazy } from "react";
+
+const CardsPage = lazy(() => import("../pages/CardsPage/CardsPage"));
 
 function App() {
   return (

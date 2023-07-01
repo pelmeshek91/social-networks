@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
 
 const Layout = () => {
@@ -5,7 +6,9 @@ const Layout = () => {
     <div>
       <header></header>
       <main>
-        <Outlet />
+        <Suspense>
+          <Outlet />
+        </Suspense>
       </main>
     </div>
   );
