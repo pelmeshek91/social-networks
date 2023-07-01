@@ -6,21 +6,16 @@ The application allows you to track the user's followers, gives the opportunity 
 
 - [Technology](#technology)
 - [Usage](#usage)
-
 - [Contributing](#contributing)
 
 ## Technology
 
-- [JS]
-- [React]
-- [ReduxToolkit]
-- [ReduxPersist]
+- [JS](https://www.javascript.com/)
+- [React](https://react.dev/)
+- [ReduxToolkit](https://redux-toolkit.js.org/)
+- [ReduxPersist](https://github.com/rt2zz/redux-persist)
 
 ## Usage
-
-Расскажите как использовать ваш проект, например:
-
-Установите npm-пакет с помощью команды:
 
 ```sh
 $ npm i
