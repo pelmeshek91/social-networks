@@ -51,7 +51,7 @@ npm start
 To run a production build, run the command:
 
 ```sh
-npm run build
+npm run deploy
 ```
 
 ## Contributing
