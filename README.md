@@ -1,4 +1,64 @@
-# Getting Started with Create React App
+# Social-Networks
+
+The application allows you to track the user's followers, gives the opportunity to unsubscribe and subscribe to the user. See information about the user and filter them
+
+## Contents
+
+- [Technology](#technology)
+- [Usage](#usage)
+
+- [Contributing](#contributing)
+
+## Technology
+
+- [JS]
+- [React]
+- [ReduxToolkit]
+- [ReduxPersist]
+
+## Usage
+
+Расскажите как использовать ваш проект, например:
+
+Установите npm-пакет с помощью команды:
+
+```sh
+$ npm i
+```
+
+### Requirements
+
+To install and run the project, you need [NodeJS](https://nodejs.org/) v8+.
+
+### Installing dependencies
+
+To install dependencies, run the command:
+
+```sh
+$ npm i
+```
+
+### Start Development server
+
+To start the development server, run the command:
+
+```sh
+npm start
+```
+
+### Build creation
+
+To run a production build, run the command:
+
+```sh
+npm run build
+```
+
+## Contributing
+
+Liubov Pushkina — Front-End Developer
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +127,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->

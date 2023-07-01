@@ -1,10 +1,10 @@
-import { NavLink } from "react-router-dom";
+import { Title, Tweets } from "./HomePage.styled";
 
 const HomePage = () => {
   return (
     <div>
-      <h1>WELCOME TO SOCIAL NETWORKS</h1>
-      <NavLink to="/tweets">Tweets</NavLink>
+      <Title>WELCOME TO SOCIAL NETWORKS</Title>
+      <Tweets to="/tweets">Tweets</Tweets>
     </div>
   );
 };

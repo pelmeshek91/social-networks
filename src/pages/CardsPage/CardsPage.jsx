@@ -1,8 +1,10 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { getUsersTweetsThunk } from "../../redux/tweetsOperations";
-import { NavLink } from "react-router-dom";
-import CardDetails from "../../components/Card/CardDetails";
+
+import FilteredUsers from "../../components/FilteredUsers/FilteredUsers";
+import CardsList from "../../components/CardsList/CardsList";
+import { Home } from "./CardsPage.styled";
 
 const CardsPage = () => {
   const dispatch = useDispatch();
@@ -13,8 +15,9 @@ const CardsPage = () => {
 
   return (
     <div>
-      <NavLink to="/">Home</NavLink>
-      <CardDetails />
+      <Home to="/">Home</Home>
+      <FilteredUsers />
+      <CardsList />
     </div>
   );
 };

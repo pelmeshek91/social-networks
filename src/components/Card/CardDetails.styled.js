@@ -13,7 +13,7 @@ export const CardItem = styled.li`
 
   background-color: #5736a3;
 `;
-export const CardsList = styled.ul`
+export const CardsUserList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -62,9 +62,9 @@ export const Tweets = styled.p`
     content: "";
     position: absolute;
     display: block;
-    bottom: 85px;
-    right: 86px;
-    width: 150px;
+    bottom: 77px;
+    right: 80px;
+    width: 156px;
     height: 5px;
     border-bottom: 5px solid rgb(235, 216, 255);
   }
@@ -72,9 +72,9 @@ export const Tweets = styled.p`
     content: "";
     position: absolute;
     display: block;
-    bottom: 85px;
-    left: 86px;
-    width: 150px;
+    bottom: 77px;
+    left: 80px;
+    width: 156px;
     height: 5px;
     border-bottom: 5px solid rgb(235, 216, 255);
   }
